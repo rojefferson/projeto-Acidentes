@@ -1,4 +1,13 @@
 
+
+# acidentes['tipo'].value_counts().plot(kind='barh')
+# plt.show()
+#crossAcidentesBairro = pd.crosstab(acidentes['bairro'], acidentes['tipo'])
+#crossAcidentesBairro['total'] = crossAcidentesBairro.sum(axis=1)
+# crossAcidentesBairro.plot(kind='bar',legend = True)
+
+# plt.show()
+
 # plt.plot([0,10,20,30])
 # plt.show()
 
@@ -11,6 +20,22 @@
 
 #tamanho da base
 #acidentes.shape
+
+#Tipos de Gráficos
+ 
+
+# ‘line’ : line plot (default)
+# ‘bar’ : vertical bar plot
+# ‘barh’ : horizontal bar plot
+# ‘hist’ : histogram
+# ‘box’ : boxplot
+# ‘kde’ : Kernel Density Estimation plot
+# ‘density’ : same as ‘kde’
+# ‘area’ : area plot
+# ‘pie’ : pie plot
+# ‘scatter’ : scatter plot
+# ‘hexbin’ : hexbin plot
+
 
 
 #conta os dados 
