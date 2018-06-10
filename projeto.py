@@ -10,8 +10,8 @@ acidentes = pd.read_csv(
 # acidentes['tipo'].value_counts().plot(kind='barh')
 # plt.show()
 crossAcidentesBairro = pd.crosstab(acidentes['bairro'], acidentes['tipo'])
-crossAcidentesBairro['total'] = crossAcidentesBairro.sum(axis=1)
+#crossAcidentesBairro['total'] = crossAcidentesBairro.sum(axis=1)
 
-crossSimples = crossAcidentesBairro
+crossAcidentesBairro.plot(kind='bar')
 
-print crossSimples.head()
+plt.show()
