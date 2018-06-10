@@ -8,6 +8,6 @@ acidentes = pd.read_csv(
     sep=';',header=None, names=["tipo","situacao","data","hora","bairro","endereco","numero","complemento","natureza","descricao","auto","moto","ciclom","ciclista","pedestre","onibus","caminhao","viatura","outros","vitimas","vitimasfatais"])
 
 
-tipoCarro = pd.crosstab([acidentes['tipo'],acidentes['situacao']], acidentes['vitimas'])
+tipoCarro = pd.crosstab([acidentes['tipo'],acidentes['situacao']], acidentes['vitimas'],margins=True)
 
 print tipoCarro

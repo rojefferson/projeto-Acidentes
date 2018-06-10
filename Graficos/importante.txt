@@ -1,0 +1,22 @@
+vitimas                                    0.0   1.0  2.0  3.0  4.0  5.0  6.0  20.0  24.0    All
+tipo            situacao
+ ATROPELAMENTO   CANCELADA                   0     2    0    0    0    0    0     0     0      2
+                 FINALIZADA                  2    26    2    0    0    0    0     0     0     30
+                 PENDENTE                    0     1    0    0    0    0    0     0     0      1
+ COM VÍTIMA      CANCELADA                   0   193   30    1    1    0    0     0     0    225
+                 EM ABERTO                   0     1    0    0    0    0    0     0     0      1
+                 EM ATENDIMENTO              0     6    0    1    1    0    0     0     0      8
+                 EQUIPE EM DESLOCAMENTO      0     8    2    0    0    0    0     0     0     10
+                 EQUIPE NO LOCAL             0     2    0    0    0    0    0     0     0      2
+                 FINALIZADA                  0  1578  229   40    8    1    1     1     1   1859
+                 PENDENTE                    0    18    2    1    0    0    0     0     0     21
+ SEM VÍTIMA      CANCELADA                2003     0    0    0    0    0    0     0     0   2003
+                 EM ABERTO                   2     0    0    0    0    0    0     0     0      2
+                 EM ATENDIMENTO             28     0    0    0    0    0    0     0     0     28
+                 EQUIPE EM DESLOCAMENTO     22     0    0    0    0    0    0     0     0     22
+                 EQUIPE NO LOCAL             1     0    0    0    0    0    0     0     0      1
+                 Err:512                     1     0    0    0    0    0    0     0     0      1
+                 FINALIZADA               7402     0    0    0    0    0    0     0     0   7402
+                 PENDENTE                  177     0    0    0    0    0    0     0     0    177
+ VÍTIMA FATAL    FINALIZADA                 13     4    2    2    0    1    0     0     0     22
+All                                       9651  1839  267   45   10    2    1     1     1  11817
